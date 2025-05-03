@@ -1,0 +1,15 @@
+@import "tailwindcss";
+.scrollbar-hide {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; 
+}
+/* NavBar sm in full */
+@media (max-width: 640px) {
+    .drawer-full-sm .ant-drawer-content-wrapper {
+        width: 100vw !important;
+        height: 100vh !important;
+    }
+}
